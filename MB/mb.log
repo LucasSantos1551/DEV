@@ -1,0 +1,32 @@
+{"level":"info","message":"[mb:2525] mountebank v2.9.2 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2026-01-22T10:05:17.640Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2026-01-22T10:06:01.817Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2026-01-22T10:06:04.290Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2026-01-22T10:06:08.861Z"}
+{"level":"info","message":"[http:4545] Open for business...","timestamp":"2026-01-22T10:06:08.867Z"}
+{"level":"info","message":"[http:4545] ::ffff:127.0.0.1:53898 => POST /test","timestamp":"2026-01-22T10:06:13.655Z"}
+{"level":"info","message":"[http:4545] no predicate match, using default response","timestamp":"2026-01-22T10:06:13.658Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2026-01-22T10:06:20.816Z"}
+{"level":"info","message":"[http:4547] Open for business...","timestamp":"2026-01-22T10:06:20.820Z"}
+{"level":"info","message":"[http:4547] ::ffff:127.0.0.1:53902 => POST /test","timestamp":"2026-01-22T10:06:26.349Z"}
+{"level":"info","message":"[http:4547] no predicate match, using default response","timestamp":"2026-01-22T10:06:26.352Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2026-01-22T10:06:33.945Z"}
+{"level":"info","message":"[http:4548] Open for business...","timestamp":"2026-01-22T10:06:33.950Z"}
+{"level":"info","message":"[http:4548] ::ffff:127.0.0.1:53904 => GET /test","timestamp":"2026-01-22T10:06:37.899Z"}
+{"level":"info","message":"[http:4548] no predicate match, using default response","timestamp":"2026-01-22T10:06:37.902Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2026-01-22T10:06:42.266Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2026-01-22T10:06:43.875Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2026-01-22T10:22:58.325Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2026-01-22T10:23:37.338Z"}
+{"level":"error","message":"[mb:2525] error creating imposter: {\"code\":\"EADDRINUSE\",\"errno\":-4091,\"syscall\":\"listen\",\"address\":\"::\",\"port\":4548,\"message\":\"listen EADDRINUSE: address already in use :::4548\",\"name\":\"Error\",\"stack\":\"Error: listen EADDRINUSE: address already in use :::4548\\n    at Server.setupListenHandle [as _listen2] (node:net:1940:16)\\n    at listenInCluster (node:net:1997:12)\\n    at Server.listen (node:net:2102:7)\\n    at C:\\\\Users\\\\Pedro\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\@mbtest\\\\mountebank\\\\src\\\\models\\\\http\\\\baseHttpServer.js:172:20\\n    at new Promise (<anonymous>)\\n    at create (C:\\\\Users\\\\Pedro\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\@mbtest\\\\mountebank\\\\src\\\\models\\\\http\\\\baseHttpServer.js:158:16)\\n    at Object.createServer (C:\\\\Users\\\\Pedro\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\@mbtest\\\\mountebank\\\\src\\\\models\\\\protocols.js:35:34)\\n    at C:\\\\Users\\\\Pedro\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\@mbtest\\\\mountebank\\\\src\\\\models\\\\imposter.js:198:22\\n    at new Promise (<anonymous>)\\n    at Object.create (C:\\\\Users\\\\Pedro\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\@mbtest\\\\mountebank\\\\src\\\\models\\\\imposter.js:192:12)\"}","timestamp":"2026-01-22T10:23:37.343Z"}
+{"level":"info","message":"[http:4548] ::ffff:127.0.0.1:54044 => GET /dados","timestamp":"2026-01-22T10:23:41.699Z"}
+{"level":"info","message":"[http:4548] no predicate match, using default response","timestamp":"2026-01-22T10:23:41.735Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2026-01-22T10:23:45.884Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2026-01-22T10:23:47.467Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2026-01-22T10:23:48.397Z"}
+{"level":"info","message":"[mb:2525] DELETE /imposters/4548","timestamp":"2026-01-22T10:28:51.111Z"}
+{"level":"info","message":"[http:4548] Ciao for now","timestamp":"2026-01-22T10:28:51.113Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2026-01-22T10:29:10.571Z"}
+{"level":"error","message":"[mb:2525] Invalid JSON: {\r\n  \"port\": 4548,\r\n  \"protocol\": \"http\",\r\n  \"stubs\": [{\r\n    \"responses\": [\r\n      { \"is\": { \"statusCode\": 200, \"body\" :{\"Nome\": \" Lucas\",\"Telefone\": 927307686} }}\r\n\r\n    ],\r\n    \"predicates\": [{\r\n      \"and\": [\r\n        {\r\n          \"equals\": {\r\n            \"path\": \"/dados\",\r\n            \"method\": \"GET\",\r\n\r\n          }\r\n        }\r\n      ]\r\n    }]\r\n  }]\r\n}","timestamp":"2026-01-22T10:29:10.573Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2026-01-22T10:32:09.316Z"}
+{"level":"info","message":"[http:4548] Open for business...","timestamp":"2026-01-22T10:32:09.319Z"}
+{"level":"info","message":"[http:4548] ::ffff:127.0.0.1:54139 => GET /dados","timestamp":"2026-01-22T10:32:13.805Z"}
